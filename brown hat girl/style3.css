@@ -1,0 +1,77 @@
+.bg{
+    background-size: 2560px;
+    overflow: hidden;
+}
+.girl{
+    height:190px; 
+    margin-top: 710px;
+    margin-left:5px;
+    position: absolute;
+}
+.score{
+    color: rgb(253, 246, 246);
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 1200px;
+    font-weight: bold;
+    position: absolute;
+}
+.box1{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 1950px;
+    height: 1900px;
+}
+
+.scoreboard{
+    height: 95px;
+    margin-top: 5px;
+    margin-left:1100px ;
+    position: absolute;
+}
+.flame{
+    height:180px;
+    margin-top: 720px;
+    margin-left: 595px ;
+    position: absolute;
+}
+.cloud{
+    height:170px;
+    margin-top: 590px;
+    margin-left: 600px ;
+    position: absolute;
+}
+
+.box1{
+    background-color: rgba(86, 206, 236, 0);
+    width: 600px;
+    height: 750px;
+    margin-left: 1100px;
+    margin-top: 200px;
+    animation-name: box1;
+    animation-duration: 1000s;
+    position: absolute;
+    
+}
+@keyframes box1{
+    0%{background-color: rgba(86, 206, 236, 0) ;}
+    2%{background-color:  rgba(86, 206, 236, 0.37);}
+    40%{background-color:  rgba(86, 206, 236, 0.37);}
+    60%{background-color:  rgba(86, 206, 236, 0.37);}
+    80%{background-color:  rgba(86, 206, 236, 0.37);}
+    100%{background-color:  rgba(86, 206, 236, 0);}
+}   
+.win1{
+    font-size: 60px;
+    color: rgba(0, 250, 62, 0);
+    margin-left: 550px;
+    margin-top: 0px;
+    animation-name: win1;
+    animation-duration: 1000s;
+    animation-delay: 25s;
+    position: relative;
+    
+}    
+@keyframes win1{
+    0%{color:rgba(0, 250, 62, 0) ; left: 550px;top: 0px;}
+    1%{ color :rgb(0, 250, 62) ;left: 550px;top: 200px;}
+}
